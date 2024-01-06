@@ -10,7 +10,7 @@ const clockTimeBar: FC<ITimeBarProps> = (props) => {
 
   function getCurrentTime() {
       const date = new Date();
-      const h = date.getUTCHours() + 4; // For Tehran Time Zone
+      const h = date.getUTCHours() + 4; // For City Time Zone
       const m = date.getUTCMinutes() - 30;
       const s = date.getUTCSeconds();
 
